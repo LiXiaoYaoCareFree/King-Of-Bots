@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-body">
         <slot></slot>
-      </div>
+      </div>S
     </div>
   </div>
 </template>
