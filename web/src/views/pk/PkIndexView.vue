@@ -1,16 +1,13 @@
 <template>
-  <div class="container">
-    <div class="card">
-      <div class="card-body">
-        对战
-      </div>
-    </div>
-  </div>
-  <div>对战</div>
+  <ContentField>对战</ContentField>
 </template>
 
-<script setup>
+<script>
+import ContentField from "@/components/ContentField.vue";
 
+export default {
+  components: {ContentField},
+}
 </script>
 
 <style scoped>

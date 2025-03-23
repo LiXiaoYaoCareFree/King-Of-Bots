@@ -1,10 +1,13 @@
 <template>
-  <div>我的Bot</div>
+  <ContentField>我的Bot</ContentField>
 </template>
 
-<script setup>
+<script>
+import ContentField from "@/components/ContentField.vue";
 
-</script>
+export default {
+  components: {ContentField},
+}</script>
 
 <style scoped>
 

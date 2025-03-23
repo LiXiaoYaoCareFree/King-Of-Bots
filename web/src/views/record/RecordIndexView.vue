@@ -1,9 +1,13 @@
 <template>
-  <div>对局列表</div>
+  <ContentField>对局列表</ContentField>
 </template>
 
-<script setup>
+<script>
+import ContentField from "@/components/ContentField.vue";
 
+export default {
+  components: {ContentField},
+}
 </script>
 
 <style scoped>
