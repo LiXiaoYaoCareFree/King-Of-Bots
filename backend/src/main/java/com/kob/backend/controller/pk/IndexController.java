@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @RequestMapping("/pk/index/")
+    @RequestMapping("/")
     public String index() { return "pk/index.html";}
 }
